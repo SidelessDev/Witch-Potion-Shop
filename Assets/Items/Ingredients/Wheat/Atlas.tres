@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cgie8wymi5nb6"]
+
+[ext_resource type="Texture2D" uid="uid://dl83ooibonjd3" path="res://Assets/Items/Ingredients/Wheat/UI_Wheat_0.png" id="1_o5kuh"]
+
+[resource]
+resource_name = "Atlas"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_o5kuh")
+emission_enabled = true

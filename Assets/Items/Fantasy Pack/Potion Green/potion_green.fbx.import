@@ -1,0 +1,59 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://cgc1g1re05wvu"
+path="res://.godot/imported/potion_green.fbx-d1b444b09b8440a7355ae20f5234867a.scn"
+
+[deps]
+
+source_file="res://Assets/Items/Fantasy Pack/Potion Green/potion_green.fbx"
+dest_files=["res://.godot/imported/potion_green.fbx-d1b444b09b8440a7355ae20f5234867a.scn"]
+
+[params]
+
+nodes/root_type="RigidBody3D"
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=true
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"materials": {
+"glass": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Fantasy Pack/Potion Green/glass.tres",
+"use_external/path": "uid://rp6l11ya83e1"
+},
+"greenliquid": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Fantasy Pack/Potion Green/greenliquid.tres",
+"use_external/path": "uid://b2x3n3f5o2g5g"
+}
+}
+}
+fbx/importer=0
+fbx/allow_geometry_helper_nodes=false
+fbx/embedded_image_handling=1
+fbx/naming_version=2

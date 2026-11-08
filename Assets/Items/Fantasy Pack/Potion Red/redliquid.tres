@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cs45rtnalsqfq"]
+
+[resource]
+resource_name = "redliquid"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.7799909, 0.08969464, 0.08003913, 1)
+emission_enabled = true

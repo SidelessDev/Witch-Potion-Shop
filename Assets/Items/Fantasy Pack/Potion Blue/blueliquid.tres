@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bovotdn5204f3"]
+
+[resource]
+resource_name = "blueliquid"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.18800528, 0.18314725, 0.53332037, 1)
+emission_enabled = true

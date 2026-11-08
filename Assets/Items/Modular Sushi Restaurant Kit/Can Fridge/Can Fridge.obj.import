@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://f0wx881g2pk4"
+path="res://.godot/imported/Can Fridge.obj-c9b8ba4496fe44b93f5ff2743874f21d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Can Fridge.obj-c9b8ba4496fe44b93f5ff2743874f21d.mesh"]
+
+source_file="res://Assets/Items/Modular Sushi Restaurant Kit/Can Fridge/Can Fridge.obj"
+dest_files=["res://.godot/imported/Can Fridge.obj-c9b8ba4496fe44b93f5ff2743874f21d.mesh", "res://.godot/imported/Can Fridge.obj-c9b8ba4496fe44b93f5ff2743874f21d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://c6ek4x4u8l4k"]
+
+[ext_resource type="Script" uid="uid://fy73me504e8p" path="res://Player/Player Scripts/player.gd" id="2_4ntmi"]
+[ext_resource type="PackedScene" uid="uid://cbemeicykesc1" path="res://UI/player_ui.tscn" id="2_btcbx"]
+[ext_resource type="Script" uid="uid://o2eemukcbaha" path="res://Player/Player Scripts/InteractionShapeCast.gd" id="2_gwnis"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hvfyp"]
+radius = 0.3
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_8ykry"]
+radius = 0.3
+
+[node name="Player" type="CharacterBody3D" unique_id=1908203101 node_paths=PackedStringArray("camera_controller")]
+script = ExtResource("2_4ntmi")
+camera_controller = NodePath("Camera_Controller/Camera3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=600995555]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0.049134016)
+shape = SubResource("CapsuleShape3D_hvfyp")
+
+[node name="Camera_Controller" type="Node3D" parent="." unique_id=270471007]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7559543, 0.20654665)
+
+[node name="Camera3D" type="Camera3D" parent="Camera_Controller" unique_id=1911534546]
+
+[node name="ReflectionProbe" type="ReflectionProbe" parent="Camera_Controller/Camera3D" unique_id=2108984388]
+update_mode = 1
+
+[node name="Hand" type="Marker3D" parent="Camera_Controller/Camera3D" unique_id=1570342182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.37638164, -0.24559951, -0.5853467)
+
+[node name="Interaction_ShapeCast" type="ShapeCast3D" parent="Camera_Controller/Camera3D" unique_id=1504528157 node_paths=PackedStringArray("hand")]
+shape = SubResource("SphereShape3D_8ykry")
+target_position = Vector3(0, 0, -2.5)
+script = ExtResource("2_gwnis")
+hand = NodePath("../Hand")
+
+[node name="Player_UI" parent="." unique_id=808243743 instance=ExtResource("2_btcbx")]

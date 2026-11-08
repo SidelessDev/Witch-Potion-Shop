@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dwdswk58y4a1e"]
+
+[ext_resource type="Texture2D" uid="uid://bxewlsigd0pew" path="res://Assets/Items/Stylized Nature MegaKit/Grass/Grass_Common_Short_0.png" id="1_dilms"]
+
+[resource]
+resource_name = "Grass"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_dilms")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0

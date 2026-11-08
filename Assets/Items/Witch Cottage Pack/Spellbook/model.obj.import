@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmgnetppwumuq"
+path="res://.godot/imported/model.obj-0e3a87700858a6f5b12ed16a15f7b2c7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/model.obj-0e3a87700858a6f5b12ed16a15f7b2c7.mesh"]
+
+source_file="res://Assets/Items/Witch Cottage Pack/Spellbook/model.obj"
+dest_files=["res://.godot/imported/model.obj-0e3a87700858a6f5b12ed16a15f7b2c7.mesh", "res://.godot/imported/model.obj-0e3a87700858a6f5b12ed16a15f7b2c7.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

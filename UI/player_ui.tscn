@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cbemeicykesc1"]
+
+[ext_resource type="Script" uid="uid://bjcimg5njvdvy" path="res://Player/Player Scripts/reticle.gd" id="1_c8xti"]
+
+[node name="Player_UI" type="CanvasLayer" unique_id=808243743]
+
+[node name="Control" type="Control" parent="." unique_id=139865214]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Reticle" type="CenterContainer" parent="Control" unique_id=1427567057]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_c8xti")

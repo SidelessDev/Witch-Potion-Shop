@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b2x3n3f5o2g5g"]
+
+[resource]
+resource_name = "greenliquid"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.1703576, 0.53332347, 0.0868949, 1)
+emission_enabled = true
