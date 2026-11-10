@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Bunny.fbx-dace06aa78e47b07780a4a90d71a9418.sc
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="CharacterBody3D"
 nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
@@ -39,7 +39,40 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"materials": {
+"Bunny_Main": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Bunny/Bunny_Main.tres",
+"use_external/path": "uid://bqi02284hprs2"
+},
+"Bunny_Secondary": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Bunny/Bunny_Secondary.tres",
+"use_external/path": "uid://ddhrrvljldmy5"
+},
+"Eye_Black": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Bunny/Eye_Black.tres",
+"use_external/path": "uid://bhrxtuu8ri46o"
+},
+"Eye_White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Bunny/Eye_White.tres",
+"use_external/path": "uid://xogquilhqjx6"
+},
+"Material.011": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Bunny/Material.011.tres",
+"use_external/path": "uid://um2h845w6sx0"
+},
+"Material.024": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Bunny/Material.024.tres",
+"use_external/path": "uid://b74wsa7hh2mxn"
+}
+}
+}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1

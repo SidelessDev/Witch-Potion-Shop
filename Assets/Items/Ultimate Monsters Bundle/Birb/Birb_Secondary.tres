@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://caouukv6ddfbx"]
+
+[resource]
+resource_name = "Birb_Secondary"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.5357614, 0.526779, 0.5196424, 1)
+emission_enabled = true
+emission = Color(0.5933228, 0.58346516, 0.5756332, 1)
+emission_energy_multiplier = 0.0

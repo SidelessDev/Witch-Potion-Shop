@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bhrxtuu8ri46o"]
+
+[resource]
+resource_name = "Eye_Black"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.103962235, 0.106004104, 0.116602026, 1)
+emission_enabled = true
+emission = Color(0.11945086, 0.12169169, 0.13332222, 1)
+emission_energy_multiplier = 0.0

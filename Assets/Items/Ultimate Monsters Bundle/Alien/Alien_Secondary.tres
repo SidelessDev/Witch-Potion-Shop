@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cm6on7sxiwrat"]
+
+[resource]
+resource_name = "Alien_Secondary"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.2779841, 0.42749566, 0.18365373, 1)
+emission_enabled = true
+emission = Color(0.31042874, 0.47450805, 0.20690717, 1)
+emission_energy_multiplier = 0.0

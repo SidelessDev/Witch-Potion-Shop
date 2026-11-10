@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/BlueDemon.fbx-06a1709a5cda9c639c3997f4048c4ab
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="CharacterBody3D"
 nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
@@ -39,7 +39,40 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"materials": {
+"BlueDemon_Main": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Blue Demon/BlueDemon_Main.tres",
+"use_external/path": "uid://cf4nfgsmf4e4l"
+},
+"BlueDemon_Secondary": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Blue Demon/BlueDemon_Secondary.tres",
+"use_external/path": "uid://cokho2bg0j572"
+},
+"Eye_Black": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Blue Demon/Eye_Black.tres",
+"use_external/path": "uid://b706byvdsqxip"
+},
+"Eye_White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Blue Demon/Eye_White.tres",
+"use_external/path": "uid://ckekao8d2ufjb"
+},
+"Straps": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Blue Demon/Straps.tres",
+"use_external/path": "uid://c2pysocj7vfja"
+},
+"Wood": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Blue Demon/Wood.tres",
+"use_external/path": "uid://vjflj4fsin53"
+}
+}
+}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1

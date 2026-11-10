@@ -1,15 +1,15 @@
 [gd_scene format=3 uid="uid://d03bsuj0tadkw"]
 
 [ext_resource type="PackedScene" uid="uid://cp5l7mhhalbc0" path="res://Assets/Items/Fantasy Pack/Potion Blue/potion_blue.fbx" id="1_36f2a"]
-[ext_resource type="Script" uid="uid://np4nfwi5er1q" path="res://Items/Item Scripts/potion_blue.gd" id="2_i2osn"]
+[ext_resource type="Script" uid="uid://bti7eky4bmrr2" path="res://Items/Item Scripts/Potion.gd" id="2_2aduk"]
 [ext_resource type="Material" uid="uid://bovotdn5204f3" path="res://Assets/Items/Fantasy Pack/Potion Blue/blueliquid.tres" id="2_mjskp"]
 [ext_resource type="Material" uid="uid://s876et23kr5j" path="res://Assets/Items/Fantasy Pack/Potion Blue/glass.tres" id="3_i2osn"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_36f2a"]
 points = PackedVector3Array(0.011622427, 3.49544e-05, -0.00708622, 0.008434044, -0.0084096715, -0.00708622, 0.006917285, -0.006892918, -0.014013008, 0.008434044, 3.49544e-05, -0.015531534, 0.006917285, 0.0069651054, -0.014013008, 0.008434044, 0.008484135, -0.00708622, 0.006917285, 0.0069651054, -0.00015603565, 0.004623927, 3.49544e-05, 0.015684873, 0.006917285, -0.006892918, -0.00015603565, -1.2892298e-05, -0.011595764, -0.00708622, -1.2892298e-05, -0.0084096715, -0.015531534, -1.2892298e-05, 3.49544e-05, -0.017841596, -1.2892298e-05, 0.008484135, -0.015531534, -1.2892298e-05, 0.011667951, -0.00708622, -1.2892298e-05, 0.0046717552, 0.015684873, 0.003266587, 0.0033144215, 0.015684873, 0.0038951542, 3.49544e-05, 0.016863685, 0.003266587, -0.0032422347, 0.015684873, -1.2892298e-05, -0.0045995694, 0.015684873, -0.006940793, -0.006892918, -0.00015603565, -0.008457552, -0.0084096715, -0.00708622, -0.006940793, -0.006892918, -0.014013008, -0.008457552, 3.49544e-05, -0.015531534, -0.006940793, 0.0069651054, -0.014013008, -0.008457552, 0.008484135, -0.00708622, -0.006940793, 0.0069651054, -0.00015603565, -0.0032900944, 0.0033144215, 0.015684873, -1.2892298e-05, 0.003942985, 0.016863685, 0.0027496135, 0.00279745, 0.016863685, 0.0027496135, -0.0027252631, 0.016863685, -1.2892298e-05, -0.0038707987, 0.016863685, -0.0032900944, -0.0032422347, 0.015684873, -0.011643657, 3.49544e-05, -0.00708622, -0.0046474347, 3.49544e-05, 0.015684873, -0.0039186613, 3.49544e-05, 0.016863685, -0.002773121, 0.00279745, 0.016863685, -0.002773121, -0.0027252631, 0.016863685)
 
-[node name="potion_blue" unique_id=1784018972 groups=["Pickable"] instance=ExtResource("1_36f2a")]
-script = ExtResource("2_i2osn")
+[node name="potion_poison" unique_id=1784018972 groups=["Pickable", "Potion"] instance=ExtResource("1_36f2a")]
+script = ExtResource("2_2aduk")
 
 [node name="potion_blue" parent="." index="0" unique_id=723701774]
 surface_material_override/0 = ExtResource("2_mjskp")

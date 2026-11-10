@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c8jhhjgin2j5a"]
+
+[resource]
+resource_name = "Birb_Beak"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.52968645, 0.11330332, 0.079235986, 1)
+emission_enabled = true
+emission = Color(0.5866559, 0.1297021, 0.09231539, 1)
+emission_energy_multiplier = 0.0

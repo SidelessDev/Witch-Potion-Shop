@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Alien.fbx-be560efe932ef00c407211b6ba9e179c.sc
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="CharacterBody3D"
 nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
@@ -39,7 +39,30 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"materials": {
+"Alien_Main": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alien/Alien_Main.tres",
+"use_external/path": "uid://boy03e38ig265"
+},
+"Alien_Secondary": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alien/Alien_Secondary.tres",
+"use_external/path": "uid://cm6on7sxiwrat"
+},
+"Eye_Black": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alien/Eye_Black.tres",
+"use_external/path": "uid://bgdsmox2i2d2d"
+},
+"Eye_White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alien/Eye_White.tres",
+"use_external/path": "uid://bx6tgrbp8lgyo"
+}
+}
+}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1

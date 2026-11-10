@@ -25,6 +25,8 @@ var held_item: RigidBody3D
 var used_machine: StaticBody3D
 var item_collision_shape: CollisionShape3D
 
+@onready var cauldron = $"../Cauldron"
+
 
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -104,3 +106,23 @@ func pickup_item():
 		elif item.is_in_group("Usable"):
 			used_machine = machine
 			machine.use_machine(machine)
+		elif item.is_in_group("Client") and OrderManager.current_order.status == Order.Status.PENDING:
+			OrderManager.accept_order()
+		elif item.is_in_group("Client") and OrderManager.current_order.status == Order.Status.ACCEPTED:
+			if held_item == null:
+				return
+			var prepared_potion_id = cauldron.prepared_potion_id
+			OrderManager.check_order(prepared_potion_id)
+
+func get_brewed_potion(item_scene: PackedScene):
+	var item = item_scene.instantiate()
+	var collision = item.get_node("CollisionShape3D")
+	
+	held_item = item
+	hand.add_child(held_item)
+	held_item.transform = Transform3D.IDENTITY
+	
+	item.position = Vector3.ZERO		# Change item position to 0/hand
+	item.rotation = Vector3.ZERO		# Change item rotation to 0
+	item.freeze = true
+	collision.disabled = true

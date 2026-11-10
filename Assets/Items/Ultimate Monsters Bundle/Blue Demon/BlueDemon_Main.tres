@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cf4nfgsmf4e4l"]
+
+[resource]
+resource_name = "BlueDemon_Main"
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.16994688, 0.34240577, 0.4264156, 1)
+emission_enabled = true
+emission = Color(0.19186479, 0.3811274, 0.47332275, 1)
+emission_energy_multiplier = 0.0

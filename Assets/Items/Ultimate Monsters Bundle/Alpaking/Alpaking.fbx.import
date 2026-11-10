@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Alpaking.fbx-241849fc542054a92a8ad5e7ac1ffe16
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="CharacterBody3D"
 nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
@@ -39,7 +39,35 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"materials": {
+"Alpaking_Main": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alpaking/Alpaking_Main.tres",
+"use_external/path": "uid://dg1rprypht6yw"
+},
+"Alpaking_Secondary": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alpaking/Alpaking_Secondary.tres",
+"use_external/path": "uid://b0tf1r2i5culs"
+},
+"Eye_Black": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alpaking/Eye_Black.tres",
+"use_external/path": "uid://cl6pxco03oy7a"
+},
+"Eye_White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alpaking/Eye_White.tres",
+"use_external/path": "uid://bc53otorhkt7j"
+},
+"Wings": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Monsters Bundle/Alpaking/Wings.tres",
+"use_external/path": "uid://ds453imimpov2"
+}
+}
+}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1
