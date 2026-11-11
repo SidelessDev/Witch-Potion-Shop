@@ -16,8 +16,6 @@ var tilt_value: float
 var player_rotation: Vector3
 var camera_rotation: Vector3
 
-@onready var anim_player: AnimationPlayer = $AnimationPlayer
-
 @onready var interaction_cast: ShapeCast3D = $Camera_Controller/Camera3D/Interaction_ShapeCast
 @onready var hand: Marker3D = $Camera_Controller/Camera3D/Hand
 
@@ -26,7 +24,7 @@ var used_machine: StaticBody3D
 var item_collision_shape: CollisionShape3D
 
 @onready var cauldron = $"../Cauldron"
-
+@onready var open_button = get_node("res://Items/open_button.tscn")
 
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)

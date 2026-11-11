@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://7yxcerpfikec"]
+
+[ext_resource type="Texture2D" uid="uid://yaotv4mvr1fl" path="res://Assets/Items/Modular Sushi Restaurant Kit/Wood Floor/Wood_0.png" id="1_f5ov7"]
+
+[resource]
+resource_name = "Atlas"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_f5ov7")
+emission_enabled = true

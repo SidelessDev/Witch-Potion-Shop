@@ -10,6 +10,13 @@ points = PackedVector3Array(-2.7352944e-06, 0.0074302293, 0.009453929, 0.0106291
 script = ExtResource("2_u8fow")
 customer_id = "birb"
 
+[node name="CharacterArmature" parent="." index="0" unique_id=1475270905]
+transform = Transform3D(50, 0, 0, 0, -2.1855694e-06, 50, 0, -50, -2.1855694e-06, 0, 1.2, -0.5)
+
+[node name="Skeleton3D" parent="CharacterArmature" index="0" unique_id=1235907730]
+bones/2/position = Vector3(0, 0, 0.0048319353)
+bones/4/rotation = Quaternion(6.7479003e-20, 3.5471476e-10, -0.0026400522, 0.99999654)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="2" unique_id=66054285]
-transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 0, 0)
+transform = Transform3D(50.000008, 0, 0, 0, -2.1855687e-06, 50.000008, 0, -50.000008, -2.1855687e-06, 0, 1.2, -0.5)
 shape = SubResource("ConvexPolygonShape3D_38qjv")

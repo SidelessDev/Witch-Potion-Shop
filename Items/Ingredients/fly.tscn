@@ -10,6 +10,9 @@ points = PackedVector3Array(-0.008707625, -0.00921836, -0.01079702, -0.0169211, 
 script = ExtResource("2_vlvg5")
 ingredient_id = "fly"
 
+[node name="Sphere" parent="." index="0" unique_id=337817413]
+transform = Transform3D(8, 0, 0, 0, -3.496911e-07, 8, 0, -8, -3.496911e-07, 0, 0, 0)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=757512366]
-transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 0, 0)
+transform = Transform3D(8, 0, 0, 0, -3.496911e-07, 8, 0, -8, -3.496911e-07, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_vlvg5")

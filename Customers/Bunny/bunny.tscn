@@ -10,6 +10,9 @@ points = PackedVector3Array(-0.0045235176, -0.00079211174, -3.9836123e-05, -0.00
 script = ExtResource("2_cwexb")
 customer_id = "bunny"
 
+[node name="CharacterArmature" parent="." index="0" unique_id=1148905539]
+transform = Transform3D(100, 0, 0, 0, -4.371139e-06, 100, 0, -100, -4.371139e-06, 0, 0, -0.5)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="2" unique_id=1024951695]
-transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 0, 0, 0)
+transform = Transform3D(100, 0, 0, 0, -4.371138e-06, 100, 0, -100, -4.371138e-06, 0, 0, -0.5)
 shape = SubResource("ConvexPolygonShape3D_6pgh8")

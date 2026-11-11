@@ -10,7 +10,10 @@ points = PackedVector3Array(0.00862357, 0.014897622, 0.0006501171, 0.008668128, 
 script = ExtResource("2_j5imk")
 ingredient_id = "frog"
 
-[node name="Skeleton3D" parent="FrogArmature" parent_id_path=PackedInt32Array(1418134942) index="0" unique_id=1473287201]
+[node name="FrogArmature" parent="." index="0" unique_id=1418134942]
+transform = Transform3D(15, 0, 0, 0, -6.556708e-07, 15, 0, -15, -6.556708e-07, 0, 0, 0)
+
+[node name="Skeleton3D" parent="FrogArmature" index="0" unique_id=1473287201]
 bones/1/position = Vector3(2.249051e-05, 0.017828934, -7.257891e-05)
 bones/2/rotation = Quaternion(0.7355204, 0.67623895, -0.03641929, -0.01960405)
 bones/3/rotation = Quaternion(0.1793895, 0.2303927, 0.45333278, 0.8421568)
@@ -38,5 +41,5 @@ bones/37/rotation = Quaternion(0.7071068, -9.80616e-07, -9.806158e-07, 0.7071067
 bones/39/rotation = Quaternion(0.6942446, -0.13425748, 0.13425526, 0.69424415)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="2" unique_id=28803277]
-transform = Transform3D(100.000015, 0, 0, 0, -1.1920929e-05, 100.00001, 0, -100.00001, -1.1920929e-05, 0, 0, 0)
+transform = Transform3D(15.000004, 0, 0, 0, -6.5567065e-07, 15.000004, 0, -15.000004, -6.5567065e-07, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_j5imk")

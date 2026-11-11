@@ -11,9 +11,6 @@ radius = 0.2
 
 [node name="Player" type="CharacterBody3D" unique_id=1908203101 node_paths=PackedStringArray("camera_controller") groups=["player"]]
 script = ExtResource("2_4ntmi")
-mouse_sens = null
-TILT_LOWER_LIMIT = null
-TILT_UPPER_LIMIT = null
 camera_controller = NodePath("Camera_Controller/Camera3D")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=600995555]

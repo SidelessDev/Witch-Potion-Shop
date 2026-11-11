@@ -10,6 +10,9 @@ points = PackedVector3Array(-0.122319594, 1.2589602, 0.25788713, 0.28322807, 1.1
 script = ExtResource("2_27xy4")
 ingredient_id = "grass_ingredient"
 
+[node name="Grass_Common_Short" parent="." index="0" unique_id=99350359]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, -8.1460335e-08, 0, 8.1460335e-08, 0.5, 0, -0.2, 0)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1008325754]
-transform = Transform3D(1, 0, 0, 0, 1, -1.6292067e-07, 0, 1.6292067e-07, 1, 0, 0, 0)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, -8.1460335e-08, 0, 8.1460335e-08, 0.5, 0, -0.2, 0)
 shape = SubResource("ConvexPolygonShape3D_27xy4")

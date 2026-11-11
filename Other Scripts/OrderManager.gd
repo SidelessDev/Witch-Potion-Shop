@@ -25,6 +25,7 @@ func accept_order():
 		return
 		
 	current_order.status = Order.Status.ACCEPTED
+	print("ACCEPTÉ")
 
 func check_order(prepared_potion_id: String):
 	if prepared_potion_id == current_order.potion_id:

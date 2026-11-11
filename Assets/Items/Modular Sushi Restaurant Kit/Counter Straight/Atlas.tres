@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://binomiiopp3s5"]
+
+[ext_resource type="Texture2D" uid="uid://dd4yj76elu3l0" path="res://Assets/Items/Modular Sushi Restaurant Kit/Counter Straight/Counter_Straight_0.png" id="1_5r7k7"]
+
+[resource]
+resource_name = "Atlas"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_5r7k7")
+emission_enabled = true

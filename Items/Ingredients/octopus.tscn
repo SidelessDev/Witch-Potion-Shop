@@ -10,6 +10,9 @@ points = PackedVector3Array(-0.3921138, -0.94247746, -0.06830096, 0.3920098, -0.
 script = ExtResource("2_1yih0")
 ingredient_id = "octopus"
 
+[node name="FoodIngredient_Octopus" parent="." index="0" unique_id=1794041292]
+transform = Transform3D(0.24574563, -0.044535752, -0.1662097, 0, 0.28977776, -0.07764572, 0.17207295, 0.06360365, 0.23737204, 0, 0.05, 0)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1262634014]
-transform = Transform3D(1, 0, 0, 0, 1, -4.371139e-08, 0, 4.371139e-08, 1, 0, 0, 0)
+transform = Transform3D(0.24574563, -0.044535752, -0.1662097, 0, 0.28977776, -0.07764572, 0.17207295, 0.06360365, 0.23737204, 0, 0.05, 0)
 shape = SubResource("ConvexPolygonShape3D_1yih0")

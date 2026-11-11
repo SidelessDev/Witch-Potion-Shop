@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Counter_Straight.fbx-45d7143b801523b263afe181
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="StaticBody3D"
 nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
@@ -39,7 +39,15 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"materials": {
+"Atlas": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Modular Sushi Restaurant Kit/Counter Straight/Atlas.tres",
+"use_external/path": "uid://binomiiopp3s5"
+}
+}
+}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1

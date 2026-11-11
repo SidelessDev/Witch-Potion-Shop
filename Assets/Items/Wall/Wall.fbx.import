@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Wall.fbx-090e2545603278c5c32273955c9067e7.scn
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="StaticBody3D"
 nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
@@ -39,7 +39,20 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"materials": {
+"Highlights": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Wall/Highlights.tres",
+"use_external/path": "uid://cwdeiff12hsuw"
+},
+"Main": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Wall/Main.tres",
+"use_external/path": "uid://hifcccw8mwy1"
+}
+}
+}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1

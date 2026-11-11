@@ -2,7 +2,11 @@ extends CharacterBody3D
 class_name Customer
 
 @export var customer_id: String = ""
+@export var customer_model: PackedScene
 
-func _ready() -> void:
-	OrderManager.create_order()
-	print("COMMANDE CRÉÉ")
+enum CustomerState {
+	IDLE,
+	WALKING
+}
+
+var current_state: CustomerState = CustomerState.IDLE
