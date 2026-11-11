@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Carrot.fbx-917ed991062b69c78fdf447d220edf1c.s
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
@@ -39,7 +39,20 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"materials": {
+"DarkGreen": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Food Pack/Carrot/DarkGreen.tres",
+"use_external/path": "uid://bwkoqiq7l85iv"
+},
+"Orange": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Assets/Items/Ultimate Food Pack/Carrot/Orange.tres",
+"use_external/path": "uid://takmo4wcsnas"
+}
+}
+}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1

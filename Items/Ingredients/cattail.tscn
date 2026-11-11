@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cdaop20k7iyxc"]
+
+[ext_resource type="ArrayMesh" uid="uid://cuehcyqj15cfm" path="res://Assets/Items/Witch Cottage Pack/Cattail/cattail.obj" id="1_ax36r"]
+[ext_resource type="Script" uid="uid://beus54nmsgcoe" path="res://Items/Item Scripts/Ingredient.gd" id="1_lvibq"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ax36r"]
+points = PackedVector3Array(-2.781118, 1.8363905, -0.46193755, -1.9115136, 7.1960545, -0.59962654, -1.7707329, 8.318055, -1.0464745, -2.7614436, 1.8363905, -0.5316373, -0.7660315, -3.122466, -0.4786142, -0.93217015, -3.122466, 0.19358182, -0.8744588, -3.122466, 0.7011497, -1.6627427, 1.0697975, 2.1083996, -0.23089027, 8.982177, 1.6170807, 0.16084695, 10.128822, 1.7325342, 1.3172593, 8.823929, -0.00012350082, 1.019084, 7.6889563, -0.3191173, -0.578907, 1.449851, -1.65624, -0.6514833, 1.449851, -1.6558124, -0.44774485, -3.122466, -0.48075223, -0.4691682, -3.122466, 0.8713367, -1.6050315, 1.0697975, 2.1528707, -1.0790716, 1.8363905, 2.6869497, -1.0113046, 1.8363905, 2.7121787, 1.6368575, 1.0697975, 1.7915437, 1.6849499, 1.0697975, 1.7376657, 1.3273149, 7.608536, -0.00012350082, 1.1498089, 0.31877017, -0.98575443, 1.2503667, 7.6279917, -0.23915505, 1.1073997, 0.31877017, -1.044764, 0.099637985, -3.122466, -0.099755645, -0.21689963, -3.122466, 0.9179456, 0.28151608, -3.122466, 0.745193, 0.4935615, -3.122466, 0.50787187)
+
+[node name="Cattail" type="RigidBody3D" unique_id=915409649 groups=["Ingredients", "Pickable"]]
+script = ExtResource("1_lvibq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=749750799]
+transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, 0, 0, 0)
+mesh = ExtResource("1_ax36r")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=696344648]
+transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_ax36r")

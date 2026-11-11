@@ -10,6 +10,9 @@ points = PackedVector3Array(2.0689557, 0.88556963, 0.25272202, 2.0673354, 0.9925
 script = ExtResource("2_v2aet")
 ingredient_id = "skull"
 
+[node name="Environment_Skulls" parent="." index="0" unique_id=2085463641]
+transform = Transform3D(0.07071068, 0, -0.07071068, 0, 0.1, 0, 0.07071068, 0, 0.07071068, -0.1, -0.1, 0)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2043432491]
-transform = Transform3D(1, 0, 0, 0, 1, -4.371139e-08, 0, 4.371139e-08, 1, 0, 0, 0)
+transform = Transform3D(0.07071068, 0, -0.07071068, 0, 0.1, 0, 0.07071068, 0, 0.07071068, -0.1, -0.1, 0)
 shape = SubResource("ConvexPolygonShape3D_v2aet")

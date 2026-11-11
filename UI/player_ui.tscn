@@ -1,8 +1,24 @@
 [gd_scene format=3 uid="uid://cbemeicykesc1"]
 
 [ext_resource type="Script" uid="uid://bjcimg5njvdvy" path="res://Player/Player Scripts/reticle.gd" id="1_c8xti"]
+[ext_resource type="Script" uid="uid://c3cy32k8l0leh" path="res://Player/Player Scripts/UI.gd" id="1_nplvd"]
+
+[sub_resource type="GDScript" id="GDScript_kwigr"]
+script/source = "extends Label
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
 
 [node name="Player_UI" type="CanvasLayer" unique_id=808243743]
+script = ExtResource("1_nplvd")
 
 [node name="Control" type="Control" parent="." unique_id=139865214]
 layout_mode = 3
@@ -27,3 +43,16 @@ offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_c8xti")
+
+[node name="Money_Label" type="Label" parent="Control" unique_id=1189159313]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -200.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+vertical_alignment = 1
+script = SubResource("GDScript_kwigr")

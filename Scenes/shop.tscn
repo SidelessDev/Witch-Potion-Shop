@@ -18,6 +18,11 @@
 [ext_resource type="PackedScene" uid="uid://cn1xvjb5efhkg" path="res://Items/Ingredients/steak.tscn" id="16_3568l"]
 [ext_resource type="PackedScene" uid="uid://bv4hf60fsejyx" path="res://Items/Ingredients/tentacle.tscn" id="17_mjtuy"]
 [ext_resource type="PackedScene" uid="uid://blsbt5cnn45k3" path="res://Items/Ingredients/wheat.tscn" id="18_cuuv1"]
+[ext_resource type="PackedScene" uid="uid://cuqpv5et0jg6f" path="res://Items/Ingredients/skull.tscn" id="19_yl1pv"]
+[ext_resource type="PackedScene" uid="uid://cdaop20k7iyxc" path="res://Items/Ingredients/cattail.tscn" id="20_m13ki"]
+[ext_resource type="PackedScene" uid="uid://bqj6lq0kdtgr5" path="res://Items/Ingredients/crystal.tscn" id="21_3mbjb"]
+[ext_resource type="PackedScene" uid="uid://3xfx8v6mntkl" path="res://Items/Ingredients/carrot.tscn" id="22_jhx1v"]
+[ext_resource type="PackedScene" uid="uid://cy2amxmn1cwb3" path="res://Items/Ingredients/turnip.tscn" id="23_dvu38"]
 
 [node name="Shop" type="Node3D" unique_id=206298469]
 
@@ -26,24 +31,6 @@ transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 1
 shadow_enabled = true
 
 [node name="BackstoreFurniture" type="Node3D" parent="." unique_id=1540427370]
-
-[node name="Table_Small" parent="BackstoreFurniture" unique_id=1404358060 instance=ExtResource("1_ow1eo")]
-transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, 5.702898, 0, 4.1673565)
-
-[node name="Table_Small2" parent="BackstoreFurniture" unique_id=1284614015 instance=ExtResource("1_ow1eo")]
-transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, 3.45, 0, 4.167)
-
-[node name="Table_Small3" parent="BackstoreFurniture" unique_id=899715568 instance=ExtResource("1_ow1eo")]
-transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, 1.2, 0, 4.167)
-
-[node name="Table_Small4" parent="BackstoreFurniture" unique_id=1780218109 instance=ExtResource("1_ow1eo")]
-transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -1.05, 0, 4.167)
-
-[node name="Table_Small5" parent="BackstoreFurniture" unique_id=1547827142 instance=ExtResource("1_ow1eo")]
-transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -3.3, 0, 4.167)
-
-[node name="Table_Small12" parent="BackstoreFurniture" unique_id=1569176812 instance=ExtResource("1_ow1eo")]
-transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -5.55, 0, 4.167)
 
 [node name="Table_Small6" parent="BackstoreFurniture" unique_id=207586537 instance=ExtResource("1_ow1eo")]
 transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, 5.702898, 0, -4.1304016)
@@ -61,6 +48,27 @@ transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-
 transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -3.3, 0, -4.1307583)
 
 [node name="Table_Small11" parent="BackstoreFurniture" unique_id=1451362141 instance=ExtResource("1_ow1eo")]
+transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -5.55, 0, -4.131)
+
+[node name="BackstoreFurniture2" type="Node3D" parent="." unique_id=2116451524]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Table_Small6" parent="BackstoreFurniture2" unique_id=1404358060 instance=ExtResource("1_ow1eo")]
+transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, 5.702898, 0, -4.1304016)
+
+[node name="Table_Small7" parent="BackstoreFurniture2" unique_id=62241898 instance=ExtResource("1_ow1eo")]
+transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, 3.45, 0, -4.1307583)
+
+[node name="Table_Small8" parent="BackstoreFurniture2" unique_id=171749385 instance=ExtResource("1_ow1eo")]
+transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, 1.2, 0, -4.1307583)
+
+[node name="Table_Small9" parent="BackstoreFurniture2" unique_id=982137442 instance=ExtResource("1_ow1eo")]
+transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -1.05, 0, -4.1307583)
+
+[node name="Table_Small10" parent="BackstoreFurniture2" unique_id=571778989 instance=ExtResource("1_ow1eo")]
+transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -3.3, 0, -4.1307583)
+
+[node name="Table_Small11" parent="BackstoreFurniture2" unique_id=1273686235 instance=ExtResource("1_ow1eo")]
 transform = Transform3D(-4.8082526e-08, 0, -1.1, 0, 1.1, 0, 1.1, 0, -4.8082526e-08, -5.55, 0, -4.131)
 
 [node name="BackstoreFloor" type="Node3D" parent="." unique_id=1613962299]
@@ -171,9 +179,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
 
 [node name="Player" parent="." unique_id=1908203101 instance=ExtResource("1_a0mxf")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.863004, 0, 0.013236046)
-mouse_sens = 0.3
-TILT_LOWER_LIMIT = -1.5707963267948966
-TILT_UPPER_LIMIT = 1.5707963267948966
 
 [node name="Cauldron" parent="." unique_id=93919326 instance=ExtResource("3_io27d")]
 transform = Transform3D(-3.934025e-08, 0, -0.9, 0, 0.9, 0, 0.9, 0, -3.934025e-08, 6, 0, 0)
@@ -767,7 +772,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4000001)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.79999995)
 
 [node name="Wheat_ING" type="Node3D" parent="Ingredients" unique_id=1048071997]
-transform = Transform3D(-0.64278764, 0.76604444, -3.3484866e-08, 0, -4.371139e-08, -1, -0.76604444, -0.64278764, 2.809714e-08, 0, 1, -4.6)
+transform = Transform3D(-0.64278764, 0.76604444, -3.3484866e-08, 0, -4.371139e-08, -1, -0.76604444, -0.64278764, 2.809714e-08, -0.3, 1, -4.6)
 
 [node name="wheat" parent="Ingredients/Wheat_ING" unique_id=967931884 instance=ExtResource("18_cuuv1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, -3.5527137e-15, 1, 0, 0, 0)
@@ -777,3 +782,197 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, -3.5527137e-15, 1, -0.3830223, -0.3
 
 [node name="wheat3" parent="Ingredients/Wheat_ING" unique_id=142981661 instance=ExtResource("18_cuuv1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, -3.5527137e-15, 1, -0.7660446, -0.6427877, 0)
+
+[node name="Skull_ING" type="Node3D" parent="Ingredients" unique_id=116097589]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -1.4, 1.02, -4.6)
+
+[node name="skull" parent="Ingredients/Skull_ING" unique_id=39752574 instance=ExtResource("19_yl1pv")]
+
+[node name="skull2" parent="Ingredients/Skull_ING" unique_id=309035450 instance=ExtResource("19_yl1pv")]
+transform = Transform3D(0.9998803, 0.00010232238, -0.015479714, -0.0001039526, 1, -0.00010453017, 0.015479714, 0.0001061265, 0.9998803, -0.5656855, 0, 0.14142132)
+
+[node name="skull3" parent="Ingredients/Skull_ING" unique_id=1693127061 instance=ExtResource("19_yl1pv")]
+transform = Transform3D(0.9998803, 0.00010232238, -0.015479714, -0.0001039526, 1, -0.00010453017, 0.015479714, 0.0001061265, 0.9998803, -0.42426395, 0, 0.7071068)
+
+[node name="Cattail_ING" type="Node3D" parent="Ingredients" unique_id=1003312541]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -3, 1.2, -4.6)
+
+[node name="Cattail" parent="Ingredients/Cattail_ING" unique_id=1194536685 instance=ExtResource("20_m13ki")]
+
+[node name="Cattail2" parent="Ingredients/Cattail_ING" unique_id=915409649 instance=ExtResource("20_m13ki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4000001)
+
+[node name="Cattail3" parent="Ingredients/Cattail_ING" unique_id=1533527158 instance=ExtResource("20_m13ki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.79999995)
+
+[node name="Crystal_ING" type="Node3D" parent="Ingredients" unique_id=1251755595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.85, 1, -4.6)
+
+[node name="Crystal" parent="Ingredients/Crystal_ING" unique_id=1700382175 instance=ExtResource("21_3mbjb")]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="Crystal2" parent="Ingredients/Crystal_ING" unique_id=227368439 instance=ExtResource("21_3mbjb")]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0.4000001)
+
+[node name="Crystal3" parent="Ingredients/Crystal_ING" unique_id=708880774 instance=ExtResource("21_3mbjb")]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0.79999995)
+
+[node name="Carrot_ING" type="Node3D" parent="Ingredients" unique_id=1248958769]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -5, 1, -4.6)
+
+[node name="Carrot" parent="Ingredients/Carrot_ING" unique_id=2013416345 instance=ExtResource("22_jhx1v")]
+
+[node name="Carrot2" parent="Ingredients/Carrot_ING" unique_id=1326291685 instance=ExtResource("22_jhx1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4000001)
+
+[node name="Carrot3" parent="Ingredients/Carrot_ING" unique_id=1277500919 instance=ExtResource("22_jhx1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.79999995)
+
+[node name="Turnip_ING" type="Node3D" parent="Ingredients" unique_id=23527378]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -6.1, 1, -4.6)
+
+[node name="Turnip" parent="Ingredients/Turnip_ING" unique_id=1558268103 instance=ExtResource("23_dvu38")]
+
+[node name="Turnip2" parent="Ingredients/Turnip_ING" unique_id=1726027306 instance=ExtResource("23_dvu38")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5)
+
+[node name="Turnip3" parent="Ingredients/Turnip_ING" unique_id=1015499381 instance=ExtResource("23_dvu38")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Ingredients2" type="Node3D" parent="." unique_id=669829771]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Fly_ING" type="Node3D" parent="Ingredients2" unique_id=106081505]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, 1, -4.7)
+
+[node name="Fly" parent="Ingredients2/Fly_ING" unique_id=661331961 instance=ExtResource("12_k6pkm")]
+
+[node name="Fly2" parent="Ingredients2/Fly_ING" unique_id=1219725579 instance=ExtResource("12_k6pkm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5)
+
+[node name="Fly3" parent="Ingredients2/Fly_ING" unique_id=1659140991 instance=ExtResource("12_k6pkm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.99999976)
+
+[node name="Frog_ING" type="Node3D" parent="Ingredients2" unique_id=1329175083]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.1, 1, -4.5)
+
+[node name="Frog" parent="Ingredients2/Frog_ING" unique_id=215595699 instance=ExtResource("13_1sjcd")]
+
+[node name="Frog2" parent="Ingredients2/Frog_ING" unique_id=1335880536 instance=ExtResource("13_1sjcd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.39999962, 0, -0.5999999)
+
+[node name="Frog3" parent="Ingredients2/Frog_ING" unique_id=1613036732 instance=ExtResource("13_1sjcd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7999997, 0, 0)
+
+[node name="Grass_ING" type="Node3D" parent="Ingredients2" unique_id=139041019]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 4.4, 1.2, -4.5)
+
+[node name="grass_ingredient" parent="Ingredients2/Grass_ING" unique_id=430072923 instance=ExtResource("14_1cyt5")]
+
+[node name="grass_ingredient2" parent="Ingredients2/Grass_ING" unique_id=2028527042 instance=ExtResource("14_1cyt5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5)
+
+[node name="grass_ingredient3" parent="Ingredients2/Grass_ING" unique_id=1810997857 instance=ExtResource("14_1cyt5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Octopus_ING" type="Node3D" parent="Ingredients2" unique_id=1017722704]
+transform = Transform3D(0.2867882, 0.86602557, -0.40957603, -0.49673176, 0.49999997, 0.70940655, 0.8191522, 0, 0.57357645, 3, 1.2, -4.6)
+
+[node name="octopus" parent="Ingredients2/Octopus_ING" unique_id=1192050759 instance=ExtResource("15_0vsm1")]
+transform = Transform3D(1.0000001, 0, 2.9802322e-08, 1.4901161e-08, 1.0000001, 0, -2.9802322e-08, 0, 1, 0, 0, 0)
+
+[node name="octopus2" parent="Ingredients2/Octopus_ING" unique_id=1429956576 instance=ExtResource("15_0vsm1")]
+transform = Transform3D(1.0000001, 0, 2.9802322e-08, 1.4901161e-08, 1.0000001, 0, -2.9802322e-08, 0, 1, 0.3276608, 0, 0.22943068)
+
+[node name="octopus3" parent="Ingredients2/Octopus_ING" unique_id=2113641534 instance=ExtResource("15_0vsm1")]
+transform = Transform3D(1.0000001, 0, 2.9802322e-08, 1.4901161e-08, 1.0000001, 0, -2.9802322e-08, 0, 1, 0.6553216, 0, 0.4588611)
+
+[node name="Steak_ING" type="Node3D" parent="Ingredients2" unique_id=1698236942]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 2.1, 1, -4.5)
+
+[node name="steak" parent="Ingredients2/Steak_ING" unique_id=1558747836 instance=ExtResource("16_3568l")]
+
+[node name="steak2" parent="Ingredients2/Steak_ING" unique_id=404868587 instance=ExtResource("16_3568l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4000001, 0, 0)
+
+[node name="steak3" parent="Ingredients2/Steak_ING" unique_id=956316939 instance=ExtResource("16_3568l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.79999995, 0, 0)
+
+[node name="Tentacle_ING" type="Node3D" parent="Ingredients2" unique_id=1671178049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7, 1.1, -4.5)
+
+[node name="tentacle" parent="Ingredients2/Tentacle_ING" unique_id=1253313160 instance=ExtResource("17_mjtuy")]
+
+[node name="tentacle2" parent="Ingredients2/Tentacle_ING" unique_id=700259484 instance=ExtResource("17_mjtuy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4000001)
+
+[node name="tentacle3" parent="Ingredients2/Tentacle_ING" unique_id=177465088 instance=ExtResource("17_mjtuy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.79999995)
+
+[node name="Wheat_ING" type="Node3D" parent="Ingredients2" unique_id=1413032993]
+transform = Transform3D(-0.64278764, 0.76604444, -3.3484866e-08, 0, -4.371139e-08, -1, -0.76604444, -0.64278764, 2.809714e-08, -0.3, 1, -4.6)
+
+[node name="wheat" parent="Ingredients2/Wheat_ING" unique_id=1800361872 instance=ExtResource("18_cuuv1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, -3.5527137e-15, 1, 0, 0, 0)
+
+[node name="wheat2" parent="Ingredients2/Wheat_ING" unique_id=987665276 instance=ExtResource("18_cuuv1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, -3.5527137e-15, 1, -0.3830223, -0.32139397, 0)
+
+[node name="wheat3" parent="Ingredients2/Wheat_ING" unique_id=985422998 instance=ExtResource("18_cuuv1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, -3.5527137e-15, 1, -0.7660446, -0.6427877, 0)
+
+[node name="Skull_ING" type="Node3D" parent="Ingredients2" unique_id=1613699735]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -1.4, 1.02, -4.6)
+
+[node name="skull" parent="Ingredients2/Skull_ING" unique_id=537332296 instance=ExtResource("19_yl1pv")]
+
+[node name="skull2" parent="Ingredients2/Skull_ING" unique_id=1921969957 instance=ExtResource("19_yl1pv")]
+transform = Transform3D(0.9998803, 0.00010232238, -0.015479714, -0.0001039526, 1, -0.00010453017, 0.015479714, 0.0001061265, 0.9998803, -0.5656855, 0, 0.14142132)
+
+[node name="skull3" parent="Ingredients2/Skull_ING" unique_id=1069559517 instance=ExtResource("19_yl1pv")]
+transform = Transform3D(0.9998803, 0.00010232238, -0.015479714, -0.0001039526, 1, -0.00010453017, 0.015479714, 0.0001061265, 0.9998803, -0.42426395, 0, 0.7071068)
+
+[node name="Cattail_ING" type="Node3D" parent="Ingredients2" unique_id=319333023]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -3, 1.2, -4.6)
+
+[node name="Cattail" parent="Ingredients2/Cattail_ING" unique_id=1352409958 instance=ExtResource("20_m13ki")]
+
+[node name="Cattail2" parent="Ingredients2/Cattail_ING" unique_id=1815441165 instance=ExtResource("20_m13ki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4000001)
+
+[node name="Cattail3" parent="Ingredients2/Cattail_ING" unique_id=945795365 instance=ExtResource("20_m13ki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.79999995)
+
+[node name="Crystal_ING" type="Node3D" parent="Ingredients2" unique_id=586463511]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.85, 1, -4.6)
+
+[node name="Crystal" parent="Ingredients2/Crystal_ING" unique_id=842087223 instance=ExtResource("21_3mbjb")]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="Crystal2" parent="Ingredients2/Crystal_ING" unique_id=1458065863 instance=ExtResource("21_3mbjb")]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0.4000001)
+
+[node name="Crystal3" parent="Ingredients2/Crystal_ING" unique_id=1604712189 instance=ExtResource("21_3mbjb")]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0.79999995)
+
+[node name="Carrot_ING" type="Node3D" parent="Ingredients2" unique_id=819681594]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -5, 1, -4.6)
+
+[node name="Carrot" parent="Ingredients2/Carrot_ING" unique_id=950596954 instance=ExtResource("22_jhx1v")]
+
+[node name="Carrot2" parent="Ingredients2/Carrot_ING" unique_id=2012934916 instance=ExtResource("22_jhx1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4000001)
+
+[node name="Carrot3" parent="Ingredients2/Carrot_ING" unique_id=270822450 instance=ExtResource("22_jhx1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.79999995)
+
+[node name="Turnip_ING" type="Node3D" parent="Ingredients2" unique_id=283002605]
+transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -6.1, 1, -4.6)
+
+[node name="Turnip" parent="Ingredients2/Turnip_ING" unique_id=36764019 instance=ExtResource("23_dvu38")]
+
+[node name="Turnip2" parent="Ingredients2/Turnip_ING" unique_id=250803404 instance=ExtResource("23_dvu38")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5)
+
+[node name="Turnip3" parent="Ingredients2/Turnip_ING" unique_id=107977229 instance=ExtResource("23_dvu38")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)

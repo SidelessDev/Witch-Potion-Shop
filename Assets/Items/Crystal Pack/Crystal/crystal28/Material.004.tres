@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cthkanjksfrge"]
+
+[ext_resource type="Texture2D" uid="uid://8n1c7e80jjo" path="res://Assets/Items/Crystal Pack/Crystal/crystal_28_0.png" id="1_j4pyn"]
+
+[resource]
+resource_name = "Material.004"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_j4pyn")
+emission_enabled = true
