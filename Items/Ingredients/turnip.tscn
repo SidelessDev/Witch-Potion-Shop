@@ -8,8 +8,9 @@ points = PackedVector3Array(0.0062627685, 0.0016557537, 0.0168372, 0.0062529934,
 
 [node name="Turnip" unique_id=1558268103 groups=["Ingredients", "Pickable"] instance=ExtResource("1_jmsbf")]
 script = ExtResource("2_1a3gd")
+ingredient_id = "turnip"
 
-[node name="Turnip" parent="." index="0" unique_id=1139650190]
+[node name="Turnip" parent="." index="0" unique_id=1760186279]
 transform = Transform3D(35, 0, 0, 0, -1.5298986e-06, 35, 0, -35, -1.5298986e-06, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=537194400]

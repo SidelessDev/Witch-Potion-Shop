@@ -1,6 +1,7 @@
 extends Node
 
 var is_shop_busy = false
+var current_customer
 
 @onready var CustomerSpawn: Marker3D = get_tree().get_first_node_in_group("Spawner")
 
@@ -48,8 +49,13 @@ func new_customer_enter():
 	OrderManager.create_order()
 
 func spawn_customer(customer_model: PackedScene):
-	var customer = customer_model.instantiate()
-	var collision = customer.get_node("CollisionShape3D")
-	CustomerSpawn.add_child(customer)
+	current_customer = customer_model.instantiate()
+	var collision = current_customer.get_node("CollisionShape3D")
+	CustomerSpawn.add_child(current_customer)
 	
-	customer.transform = Transform3D.IDENTITY
+	current_customer.transform = Transform3D.IDENTITY
+	
+func customer_leave():
+	current_customer.queue_free()
+	await get_tree().create_timer(3.0).timeout
+	new_customer_enter()

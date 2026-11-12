@@ -56,3 +56,186 @@ theme_override_font_sizes/font_size = 24
 horizontal_alignment = 1
 vertical_alignment = 1
 script = SubResource("GDScript_kwigr")
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=1510238333]
+visible = false
+custom_minimum_size = Vector2(800, 300)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -380.0
+offset_right = 400.0
+offset_bottom = -80.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 1
+color = Color(0, 0, 0, 0.39215687)
+
+[node name="Dialogue_Label" type="Label" parent="Control/ColorRect" unique_id=113189793]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -375.0
+offset_top = -280.0
+offset_right = 375.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 20
+uppercase = true
+
+[node name="Recipes_Background" type="ColorRect" parent="Control" unique_id=1777165024]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -400.0
+offset_right = 300.0
+offset_bottom = 400.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0.42352942)
+
+[node name="red_potion" type="Control" parent="Control/Recipes_Background" unique_id=1449242151]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -300.0
+offset_right = 300.0
+offset_bottom = 200.0
+grow_horizontal = 2
+mouse_filter = 1
+
+[node name="red_potion_Label" type="Label" parent="Control/Recipes_Background/red_potion" unique_id=1158350]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "RED POTION
+- STEAK
+- FLY
+- FROG"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="green_potion" type="Control" parent="Control/Recipes_Background" unique_id=895702947]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -300.0
+offset_top = 200.0
+offset_right = 300.0
+offset_bottom = 400.0
+grow_horizontal = 2
+mouse_filter = 1
+
+[node name="green_potion_Label" type="Label" parent="Control/Recipes_Background/green_potion" unique_id=896389585]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "GREEN POTION
+- GRASS
+- OCTOPUS
+- FROG"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="violet_potion" type="Control" parent="Control/Recipes_Background" unique_id=1282853843]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -300.0
+offset_top = 400.0
+offset_right = 300.0
+offset_bottom = 600.0
+grow_horizontal = 2
+mouse_filter = 1
+
+[node name="violet_potion_Label" type="Label" parent="Control/Recipes_Background/violet_potion" unique_id=719130980]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "VIOLET POTION
+- TENTACLE
+- CARROT
+- CRYSTAL"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="yellow_potion" type="Control" parent="Control/Recipes_Background" unique_id=73258458]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -300.0
+offset_top = 600.0
+offset_right = 300.0
+offset_bottom = 800.0
+grow_horizontal = 2
+mouse_filter = 1
+
+[node name="yellow_potion_Label" type="Label" parent="Control/Recipes_Background/yellow_potion" unique_id=7987997]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "YELLOW POTION
+- WHEAT
+- SKULL
+- GRASS"
+horizontal_alignment = 1
+vertical_alignment = 1

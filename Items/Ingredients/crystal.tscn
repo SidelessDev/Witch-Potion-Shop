@@ -8,8 +8,9 @@ points = PackedVector3Array(-0.6053616, 0.09159541, -0.21190561, -0.6053616, 0.0
 
 [node name="Crystal" unique_id=1700382175 groups=["Ingredients", "Pickable"] instance=ExtResource("1_xwi3v")]
 script = ExtResource("2_os8uk")
+ingredient_id = "crystal"
 
-[node name="crystal_28" parent="." index="0" unique_id=290832729]
+[node name="crystal_28" parent="." index="0" unique_id=413014680]
 transform = Transform3D(0.18, 0, 0, 0, 0.18, -7.86805e-09, 0, 7.86805e-09, 0.18, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1376765243]

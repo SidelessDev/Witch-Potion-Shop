@@ -3,6 +3,7 @@ class_name Order
 
 var potion_id: String
 var price: int
+var name: String
 
 enum Status { PENDING, ACCEPTED, DONE }
 

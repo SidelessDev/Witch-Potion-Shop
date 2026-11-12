@@ -8,6 +8,7 @@ points = PackedVector3Array(-2.781118, 1.8363905, -0.46193755, -1.9115136, 7.196
 
 [node name="Cattail" type="RigidBody3D" unique_id=915409649 groups=["Ingredients", "Pickable"]]
 script = ExtResource("1_lvibq")
+ingredient_id = "cattail"
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=749750799]
 transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, 0, 0, 0)

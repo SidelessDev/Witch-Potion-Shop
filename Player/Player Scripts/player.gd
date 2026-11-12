@@ -9,6 +9,8 @@ const JUMP_VELOCITY = 4.5
 @export var TILT_UPPER_LIMIT := deg_to_rad(90.0)
 @export var camera_controller: Camera3D
 
+var can_move: bool = true
+
 var mouse_input: bool = false
 var mouse_rotation: Vector3
 var rotation_value: float
@@ -18,6 +20,7 @@ var camera_rotation: Vector3
 
 @onready var interaction_cast: ShapeCast3D = $Camera_Controller/Camera3D/Interaction_ShapeCast
 @onready var hand: Marker3D = $Camera_Controller/Camera3D/Hand
+@onready var player_ui = $Player_UI
 
 var held_item: RigidBody3D
 var used_machine: StaticBody3D
@@ -57,6 +60,11 @@ func update_camera(delta):
 	tilt_value = 0.0
 
 func _physics_process(delta: float) -> void:
+	if Input.is_action_just_pressed("interact"):
+		pickup_item()
+		
+	if not can_move:
+		return
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -66,9 +74,6 @@ func _physics_process(delta: float) -> void:
 	## Handle jump.
 	#if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		#velocity.y = JUMP_VELOCITY
-	
-	if Input.is_action_just_pressed("interact"):
-		pickup_item()
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
@@ -82,9 +87,17 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
+	
+	if Input.is_action_just_pressed("recipes") and not player_ui.recipes_is_visible:
+		player_ui.show_recipes()
+	elif Input.is_action_just_pressed("recipes") and player_ui.recipes_is_visible:
+		player_ui.hide_recipes()
 
 
 func pickup_item():
+	if not can_move:
+		player_ui.hide_order_dialogue()
+	
 	for i in interaction_cast.get_collision_count():
 		var item = interaction_cast.get_collider(i)
 		var machine = interaction_cast.get_collider(i)
